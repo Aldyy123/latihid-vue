@@ -24,14 +24,14 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
-          <b-nav-item-dropdown style="list-style: none;" text="Program" left>
+          <b-nav-item-dropdown style="list-style: none;" class="text-dark" text="Program" left>
             <b-dropdown-item href="#">EN</b-dropdown-item>
             <b-dropdown-item href="#">ES</b-dropdown-item>
             <b-dropdown-item href="#">RU</b-dropdown-item>
             <b-dropdown-item href="#">FA</b-dropdown-item>
           </b-nav-item-dropdown>
           <b-navbar-nav>
-            <b-nav-item>Artikel</b-nav-item>
+            <b-nav-item class="text-secondary">Artikel</b-nav-item>
             <b-nav-item>Tentang Kami</b-nav-item>
             <b-nav-item>Kolaborasi</b-nav-item>
           </b-navbar-nav>

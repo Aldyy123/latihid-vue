@@ -6,56 +6,58 @@
       </b-col>
     </b-row>
     <b-row>
-      <b-col sm="6" class="mt-5 mitra" md="6" lg="3" v-for="mitra in kemitraan" :key="mitra.title">
+      <b-col sm="6" class="mt-5 mitra" md="6" lg="3">
         <div class="kotak">
           <div class="title">
-            <img class="d-flex" :src="mitra.img" :alt="mitra.title" />
-            <h4 class="text-center font-weight-bold mt-3">{{mitra.title}}</h4>
+            <img class="d-flex" src="../assets/vector-1.svg" alt="Pemateri Modul" />
+            <h4 class="text-center font-weight-bold mt-3">Pemateri Modul</h4>
           </div>
           <div
             class="text-center"
             style="font-size: 16px;"
-          >{{ mitra.text }}</div>
+          >Individu/Lembaga bermitra sebagai instruktur atau pemateri di latihID Modul, dengan menyediakan beberapa courses di dalam satu modul pembelajaran.</div>
+        </div>
+      </b-col>
+      <b-col sm="6" class="mt-5 mitra" md="6" lg="3">
+        <div class="kotak">
+          <div class="title">
+            <img class="d-flex" src="../assets/vector-2.svg" alt="Pembicara Talks" />
+            <h4 class="text-center font-weight-bold mt-3">Pembicara Talks</h4>
+          </div>
+          <div
+            class="text-center"
+            style="font-size: 16px;"
+          >Individu/Lembaga bermitra sebagai instruktur atau pemateri di latihID Talks, yang membahas topik seputar UMKM melalui webinar live atau tatap muka yang interaktif.</div>
+        </div>
+      </b-col>
+      <b-col sm="6" class="mt-5 mitra" md="6" lg="3">
+        <div class="kotak">
+          <div class="title">
+            <img class="d-flex" src="../assets/vector-3.svg" alt="Pembicara PETA" />
+            <h4 class="text-center font-weight-bold mt-3">Pembicara PETA</h4>
+          </div>
+          <div
+            class="text-center"
+            style="font-size: 16px;"
+          >Individu/Lembaga bermitra sebagai instruktur atau pemateri di latihID PETA, yang menceritakan pengalaman tentang UMKM dalam video singkat.</div>
+        </div>
+      </b-col>
+       <b-col sm="6" class="mt-5 mitra" md="6" lg="3">
+        <div class="kotak">
+          <div class="title">
+            <img class="d-flex" src="../assets/vector-4.svg" alt="Mitra Lainnya" />
+            <h4 class="text-center font-weight-bold mt-3">Mitra Lainnya</h4>
+          </div>
+          <div
+            class="text-center"
+            style="font-size: 16px;"
+          >Individu/Lembaga dapat mengajukan berbagai jenis kemitraan lainnya, seperti Media partner</div>
         </div>
       </b-col>
     </b-row>
   </b-container>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      kemitraan: [
-        {
-          img: "../assets/vector1.svg",
-          title: "Pemateri Modul",
-          text:
-            "Individu/Lembaga bermitra sebagai instruktur atau pemateri di latihID Modul, dengan menyediakan beberapa courses di dalam satu modul pembelajaran.",
-        },
-        {
-          img: "../assets/vector2.svg",
-          title: "Pembicara Talks",
-          text:
-            "Individu/Lembaga bermitra sebagai instruktur atau pemateri di latihID Talks, yang membahas topik seputar UMKM melalui webinar live atau tatap muka yang interaktif.",
-        },
-        {
-          img: "../assets/vector3.svg",
-          title: "Pembicara PETA",
-          text:
-            "Individu/Lembaga bermitra sebagai instruktur atau pemateri di latihID PETA, yang menceritakan pengalaman tentang UMKM dalam video singkat.",
-        },
-        {
-          img: "../assets/vector4.svg",
-          title: "Mitra Lainnya",
-          text:
-            "Individu/Lembaga dapat mengajukan berbagai jenis kemitraan lainnya, seperti Media partner",
-        },
-      ],
-    };
-  },
-};
-</script>
 
 <style lang="scss" scoped>
 .kebawah{
