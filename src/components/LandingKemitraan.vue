@@ -78,10 +78,27 @@ export default {
   }
 }
 
+// MD
+@media screen and (max-width: 960px) {
+  h2{
+    font-size: 22pt;
+  }
+}
 
+// SM
+@media screen and (max-width: 768px) {
+  h2{
+    font-size: 20pt;
+  }
+}
+
+// XS
 @media screen and (max-width: 576px) {
   .mitra{
     padding: 0 50px;
+  }
+  h2{
+    font-size: 17pt;
   }
 }
 </style>
